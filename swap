@@ -1,0 +1,30 @@
+print("Using Temp")
+a=int(input("enter the 1st no:"))
+b=int(input("enter the 2nd no:"))
+temp=a
+a=b
+b=temp
+print("1st no:",a)
+print("2nd no:",b)
+print("Using ,")
+a=int(input("enter the 1st no:"))
+b=int(input("enter the 2nd no:"))
+a,b=b,a
+print("1st no:",a)
+print("2nd no:",b)
+print("Using + and -")
+a=int(input("enter the 1st no:"))
+b=int(input("enter the 2nd no:"))
+a=a+b
+b=a-b
+a=a-b
+print("1st no:",a)
+print("2nd no:",b)
+print("Using ^")
+a=int(input("enter the 1st no:"))
+b=int(input("enter the 2nd no:"))
+a=a^b
+b=a^b
+a=a^b
+print("1st no:",a)
+print("2nd no:",b)
