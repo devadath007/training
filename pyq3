@@ -1,0 +1,9 @@
+n=int(input("no of students: "))
+r=list(map(int, input("Enter the ranks: ").split()))
+min=r[0]
+c=0
+for i in range(1,n):
+    if r[i] < min:
+        min=r[i]
+        c+= 1
+print("no.of cuts:",c)
