@@ -1,0 +1,13 @@
+r=int(input("Enter the no of rats:"))
+u=int(input("Enter the no of units:"))
+arr=[]
+n=int(input("enter the no of elements:"))
+arr=list(map(int, input("Enter the elements: ").split()))
+sum=0
+h=0
+for i in range(0,n):
+  sum=sum + arr[i]
+  h+=1
+  if(sum >= r*u):
+    break;
+print("output=",h)
