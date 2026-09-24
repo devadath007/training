@@ -1,0 +1,6 @@
+str=input("Enter the string:")
+print("with built in fn:",len(str))
+c=0
+for i in str:
+  c+=1
+print("length(without):",c)
