@@ -1,0 +1,7 @@
+n=int(input("enter the value  N1:"))
+d=bin(n)
+z=d[2: ]
+z=z.replace('1',"y")
+z=z.replace('0','1')
+z=z.replace("y",'0')
+print(int(z,2))
