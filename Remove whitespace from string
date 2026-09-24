@@ -1,0 +1,6 @@
+str=input("Enter the string:")
+s = ""
+for char in str:
+    if char!=" ":
+       s += char
+print("Without whitespace:",s)
