@@ -1,0 +1,11 @@
+n=int(input("enter the number:"))
+dup=n
+o=0
+while n>0:
+  r=n%10
+  o=o*10+r
+  n=n//10
+if dup == o:
+  print(dup,"is palindrome ")
+else:
+  print(dup,"is not a palindrome ")
