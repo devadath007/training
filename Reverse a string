@@ -1,0 +1,3 @@
+str=input("Enter the string:")
+r_str=str[::-1]
+print(r_str)
