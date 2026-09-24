@@ -1,0 +1,12 @@
+a=[]
+N=int(input("enter the value of N:"))
+a=list(map(int, input("Enter the elements: ").split()))
+s=int(input("enter the value of spike:"))
+for i in a:
+  b=bin(i)
+  x=b[2: ]
+  x1=x[ :-2]
+  if not x1:
+      print(0)
+  else:
+      print(int(x1,2))
