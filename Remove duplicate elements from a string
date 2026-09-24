@@ -1,0 +1,7 @@
+str=input("Enter the string:")
+print("removed(with fn):",set(str))
+s = ""
+for char in str:
+    if char not in s:
+       s += char
+print("Without duplicates:",s)
